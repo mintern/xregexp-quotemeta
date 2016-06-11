@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -e
+
+SRC=src/xregexp-quotemeta.js
+UMD=xregexp-quotemeta.js
+INJECT=xregexp-quotemeta-inject.js 
+
+babel --no-babelrc --plugins transform-es2015-modules-umd -o $UMD $SRC
+cat $UMD - > $INJECT <<<'xregexpQuotemeta.addSupportTo(XRegExp);'

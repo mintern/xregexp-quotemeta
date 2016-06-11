@@ -1,0 +1,36 @@
+{
+  "name": "xregexp-quotemeta",
+  "version": "1.0.0",
+  "description": "\\Q..\\E (quotemeta) support for XRegExp",
+  "homepage": "https://github.com/mintern/xregexp-quotemeta",
+  "author": "Brandon Mintern <brandon@mintern.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mintern/xregexp-quotemeta.git"
+  },
+  "keywords": [
+    "regex",
+    "regexp",
+    "regular expression",
+    "xregexp",
+    "quotemeta",
+    "quote",
+    "meta",
+    "q",
+    "escape"
+  ],
+  "files": ["xregexp-quotemeta.js"],
+  "main": "xregexp-quotemeta.js",
+  "scripts": {
+    "prepublish": "./.build",
+    "pretest": "./.build",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-cli": "^6.9.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.8.0",
+    "xregexp": "^3.1.1"
+  }
+}
