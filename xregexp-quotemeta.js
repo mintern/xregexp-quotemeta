@@ -31,7 +31,9 @@
    */
   function addSupportTo(XRegExp) {
     // See https://github.com/slevithan/xregexp/issues/85#issuecomment-108592346
-    XRegExp.addToken(/\\Q([\s\S]*?)(?:\\E|$)/, match => XRegExp.escape(match[1]), {
+    XRegExp.addToken(/\\Q([\s\S]*?)(?:\\E|$)/, function (match) {
+      return XRegExp.escape(match[1]);
+    }, {
       scope: 'all',
       leadChar: '\\'
     });
