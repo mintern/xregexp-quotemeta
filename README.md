@@ -1,9 +1,9 @@
-xregexp-quotemeta 1.0.0
+xregexp-quotemeta 1.0.1
 ====================================
 
 xregexp-quotemeta augments [XRegExp](http://xregexp.com/) to support the [`\Q..\E`](http://www.regular-expressions.info/characters.html#special) construct for escaping special regular expression characters.
 The functionality is added as an [XRegExp addon](http://xregexp.com/plugins/).
-The specific semantics of quotemeta support are described in slevithan/xregexp#85.
+The specific semantics of quotemeta support are described in [slevithan/xregexp#85](https://github.com/slevithan/xregexp/issues/85).
 
 ## Installation and usage
 
@@ -11,7 +11,7 @@ In browsers (bundle XRegExp with all of its addons):
 
 ```html
 <script src="xregexp-all.js"></script>
-<script src="xregexp-quotemeta-inject.js></script>"
+<script src="xregexp-quotemeta-inject.js"></script>
 ```
 
 Using [npm](https://www.npmjs.com/):
