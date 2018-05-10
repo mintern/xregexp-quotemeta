@@ -1,4 +1,4 @@
-xregexp-quotemeta 1.0.3
+xregexp-quotemeta 1.0.4
 ====================================
 
 xregexp-quotemeta augments [XRegExp](http://xregexp.com/) to support the [`\Q..\E`](http://www.regular-expressions.info/characters.html#special) construct for escaping special regular expression characters.
@@ -38,6 +38,6 @@ require(['xregexp', 'xregexp-quotemeta'], function(XRegExp, quotemeta) {
 
 ## About
 
-xregexp-quotemeta copyright 2016 by Brandon Mintern and copyright 2015 by [Steven Levithan](http://stevenlevithan.com/).
+xregexp-quotemeta copyright 2018 by Brandon Mintern and copyright 2015 by [Steven Levithan](http://stevenlevithan.com/).
 
 All code, including addons, tools, and tests, is released under the terms of the [MIT License](http://mit-license.org/).

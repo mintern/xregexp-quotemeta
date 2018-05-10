@@ -1,6 +1,6 @@
 {
   "name": "xregexp-quotemeta",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "\\Q..\\E (quotemeta) support for XRegExp",
   "homepage": "https://github.com/mintern/xregexp-quotemeta",
   "author": "Brandon Mintern <brandon@mintern.net>",
@@ -32,9 +32,9 @@
   },
   "devDependencies": {
     "assert": "^1.4.1",
-    "babel-cli": "^6.9.0",
-    "babel-plugin-transform-es2015-arrow-functions": "^6.8.0",
-    "babel-plugin-transform-es2015-modules-umd": "^6.8.0",
-    "xregexp": "^3.1.1"
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "xregexp": "^3.2.0"
   }
 }
