@@ -1,4 +1,4 @@
-xregexp-quotemeta 1.0.4
+xregexp-quotemeta 1.0.5
 ====================================
 
 xregexp-quotemeta augments [XRegExp](http://xregexp.com/) to support the [`\Q..\E`](http://www.regular-expressions.info/characters.html#special) construct for escaping special regular expression characters.
