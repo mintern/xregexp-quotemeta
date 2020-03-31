@@ -1,6 +1,6 @@
 (function (global, factory) {
   if (typeof define === "function" && define.amd) {
-    define(['exports'], factory);
+    define(["exports"], factory);
   } else if (typeof exports !== "undefined") {
     factory(exports);
   } else {
@@ -10,13 +10,14 @@
     factory(mod.exports);
     global.xregexpQuotemeta = mod.exports;
   }
-})(this, function (exports) {
-  'use strict';
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this, function (_exports) {
+  "use strict";
 
-  Object.defineProperty(exports, "__esModule", {
+  Object.defineProperty(_exports, "__esModule", {
     value: true
   });
-  exports.addSupportTo = addSupportTo;
+  _exports.addSupportTo = addSupportTo;
+
   /*!
    * quotemeta support for xregexp
    * <https://github.com/mintern/xregexp-quotemeta>
