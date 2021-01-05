@@ -1,4 +1,4 @@
-xregexp-quotemeta 1.0.6
+xregexp-quotemeta 1.0.7
 ====================================
 
 xregexp-quotemeta augments [XRegExp](http://xregexp.com/) to support the [`\Q..\E`](http://www.regular-expressions.info/characters.html#special) construct for escaping special regular expression characters.
@@ -23,8 +23,8 @@ npm install xregexp-quotemeta
 In [Node.js](http://nodejs.org/):
 
 ```js
-var XRegExp = require('xregexp');
-var quotemeta = require('xregexp-quotemeta');
+const XRegExp = require('xregexp');
+const quotemeta = require('xregexp-quotemeta');
 quotemeta.addSupportTo(XRegExp);
 ```
 
