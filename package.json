@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mintern/xregexp-quotemeta.git"
+    "url": "git+https://github.com/mintern/xregexp-quotemeta.git"
   },
   "keywords": [
     "regex",
