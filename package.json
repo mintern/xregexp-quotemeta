@@ -1,6 +1,6 @@
 {
   "name": "xregexp-quotemeta",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "\\Q..\\E (quotemeta) support for XRegExp",
   "homepage": "https://github.com/mintern/xregexp-quotemeta",
   "author": "Brandon Mintern <brandon@mintern.net>",
