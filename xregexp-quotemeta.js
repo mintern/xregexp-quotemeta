@@ -17,7 +17,6 @@
     value: true
   });
   _exports.addSupportTo = addSupportTo;
-
   /*!
    * quotemeta support for xregexp
    * <https://github.com/mintern/xregexp-quotemeta>
